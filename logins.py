@@ -10,7 +10,7 @@ class logins:
 
 example = logins(
     'example.com',                              # name       (Name of the Site)
-    "https://secure.indeed.com/account/login",  # url        (Url of the Site being logged into)
+    "https://example.com/login",  # url        (Url of the Site being logged into)
     '//*[@id="example-login-email-input"]',     # userpath   (Path needed to send email/username)
     '//*[@id="example-login-password-input"]',  # passpath   (Path needed to send password)
     '//*[@id="example-login-submit-button"]',   # loginpath  (Path needed to submit credentials)
